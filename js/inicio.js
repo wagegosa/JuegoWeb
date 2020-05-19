@@ -1,3 +1,3 @@
 document.addEventListener('DOMContentLoaded', function(){
-  console.log("JavaScript Funciona");
+  console.log("Juego iniciado");
 }, false);
