@@ -8,5 +8,6 @@
 </head>
 <body>
   <h1>¡Hola Mundo!</h1>
+  <script src="js/inicio.js"></script>
 </body>
 </html>
