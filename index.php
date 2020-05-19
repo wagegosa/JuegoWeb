@@ -8,6 +8,7 @@
 </head>
 <body>
   <h1>¡Hola Mundo!</h1>
-  <script src="js/inicio.js"></script>
+  <script src="js/buclepincipal.js"></script>
+cl  <script src="js/inicio.js"></script>
 </body>
 </html>
