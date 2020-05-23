@@ -7,7 +7,7 @@ var mando = {
       window.addEventListener("gamepadconnected", mando.conectar);
       window.addEventListener("ganepaddisconneted", mando.desconectar);
     }else{
-      mando.actualizar(),
+      mando.actualizar();
     }
   },
   conectar: function (evento) {
@@ -32,11 +32,19 @@ var mando = {
       }
     }if(!mando.objeto){
       return;
-    }if () {
+    }if (mando.botonPulsado(mando.objeto.buttons[0])) {
+      console.log("Mando: A");
     }
   },
   botonPulsado: function(){
+    if (typeof(boton) == "object") {
+        return boton.pressed;
+    } else {
+        return boton == 1.0;
+    }
   },
   identificar: function(){
+      console.log("Mando conectado en el indice %d: %s. %d botonos, %d ejes.", mando.objeto.index, mando.objeto.id, mando.objeto.buttons.length, mando.objeto.axes.length);
+      
   }
 }
