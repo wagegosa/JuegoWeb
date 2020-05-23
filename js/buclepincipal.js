@@ -31,6 +31,7 @@ var buclePrincipal = {
   // función para actualizar el juego, esto se va a realizar 60 veces por segyndo
   actualizar: function(registroTemporal){
     teclado.reiniciar();
+    mando.actualizar();
     buclePrincipal.aps++;
   },
   // función para dibujar el juego, esto se va a realizar 60 veces por segyndo
