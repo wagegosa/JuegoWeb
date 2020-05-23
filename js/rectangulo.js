@@ -3,7 +3,7 @@ function Rectangulo(x, y , ancho, alto){
   this.y = y;
   this.alto = alto;
   this.ancho = ancho;
-  this.id = "r" + x + y;
+  this.id = x + "r"+ y;
   this.inssertarDOM();
 }
 
