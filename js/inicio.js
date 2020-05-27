@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function () {
 var inicio = {
   iniciarJuego: function () {
     console.log("Juego iniciado");
+    ajax.cargarArchivo("mapas/sinnombre.json");
     teclado.go();
     dimensiones.iniciar();
     mando.iniciar();
